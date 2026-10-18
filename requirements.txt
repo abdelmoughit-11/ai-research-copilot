@@ -9,3 +9,4 @@ arxiv
 python-dotenv
 sentence-transformers
 pypdf
+pytest
