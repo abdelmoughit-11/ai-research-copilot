@@ -17,6 +17,6 @@ def test_groq_completion(mock_create):
             {"role": "user", "content": "Explain deep learning in 2 sentences"}
         ]
     )
-
+#lola
     # On vérifie que le contenu simulé est bien récupéré
     assert response.choices[0].message.content is not None
